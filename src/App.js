@@ -148,7 +148,7 @@ function App() {
   }
 
   return (
-    <Container className="my-5">
+    <Container className="my-5 custom-container">
       <h1 className="text-center">Connecta</h1>
       <Form>
         {errorMessage && <div className="alert alert-danger">{errorMessage}</div>}
